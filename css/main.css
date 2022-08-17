@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: auto;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-eighteen{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-hotelo{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin-top: 40px;
+}
+.navbar-logo-img{
+    width: 32px;
+    height: 40px;
+}
+.navbar-main-logo-title{
+    flex: 1;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;   
+    margin-left: 8px; 
+}
+
+.navbar-ul-list{
+    display: flex;
+    list-style: none;
+}
+
+.navbar-ul-list li a{
+    margin-left: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;  
+    color: #222222;    
+    text-decoration: none;
+}
+.navbar-ul-list li a:hover{
+    color: #9e9c0b;
+}
+.fa-bars-staggered{
+    margin-left: 60px;
+    margin-right: 29px;
+    color: #000000;
+}
+
+.navbar-btn1{
+    border: 1px solid #999999;
+    border-radius: 35px;
+    padding: 10px 24px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #100F2E;
+}
+
+        /* HERO */
+
+.main-title-header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px; 
+}
+.title-header-words p{
+    width: 476px;
+    height: 64px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;   
+    color: #555555;    
+}
+.title-header-input{
+    margin-left: 134px;
+    margin-top: 43px;
+}
+.header-input-type1{
+    width: 218px;
+    height: 46px;
+    background: #FAFAFA;
+    border-radius: 8px;
+}
+.header-input-type2{
+    width: 218px;
+    height: 46px;
+    background: #FAFAFA;
+    border-radius: 8px;
+    margin-left: 24px;
+}
+.header-input-type3{
+    width: 404px;
+    height: 46px;
+    background: #FAFAFA;
+    border-radius: 8px;
+    margin-top: 25px;
+    background-image: url("/homework10/img/Group\ 83.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+        /* HERO */
+.hero{
+    display: flex;
+}
+.hero-img-part1{
+    margin-right: 16px;
+}
+.hero-img1{
+   margin-top: 16px;
+}
+
+
+        /* MAIN */
+.facilities-service-overall{
+    display: flex;
+}
+.facilities-word{
+    margin-top: 120px;
+}
+.facilities-p1{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;    
+    margin-bottom: 16px;
+}
+.facilities-p2{
+    width: 605px;
+    height: 56px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #555555;    
+}
+.facilities-link{
+    margin-top: 200px;
+    margin-left: 550px;
+}
+.facilities-link > hr{
+    width: 109px;
+    border: 1px solid #f9d15c;
+    border-radius: 280px;
+    padding: 2px;
+    margin-left: -30px;
+}
+.facilities-link > a{
+    text-decoration: none;
+}
+
+.private-overall{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 77px;
+}
+.workspace-p1{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;  
+    color: #222222;   
+    margin-top: 18px;
+    margin-bottom: 12px; 
+}
+.workspace-p2{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #666666;
+}
+
+.luxury-hotels{
+    display: flex;
+    margin-top: 170px;
+}
+.luxury-hotel-info{
+    margin-left: 60px;
+}
+.hotel-info-p1{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;  
+    color: #222222;    
+    margin-bottom: 20px;
+}
+.hotel-info-p2{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;   
+    color: #555555;
+    margin-bottom: 40px;
+}
+.luxury-visitors-number{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.luxury-visitors-number > p{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 46px;
+    color: #222222;
+}
+.luxury-visitors-info{
+    display: flex;
+    justify-content: space-between;
+}
+.luxury-visitors-info > p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #222222;
+}
+
+.luxury-hotel-btn{
+    display: block;
+    width: 167px;
+    height: 56px;
+    background: #3771C8;
+    border-radius: 8px;
+    border: none;
+    margin-top: 60px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+.luxury-hotel-btn:hover{
+    background: #f9d15c;
+    color: #000000;
+    transition: 0.5s;
+}
+
+.brands-sign{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 138px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-fake1{
+    margin-top: 123px;
+}
+
+
+.hotels-rating{
+    margin-top: 199px;
+    margin-bottom: 40px;
+}
+.facilities-p1{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;    
+    margin-bottom: 16px;
+}
+.facilities-p2{
+    width: 605px;
+    height: 56px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #555555;    
+}
+.rating-link {
+    text-decoration: none;
+    margin-left: 430px;
+}
+.hotels-rating > button{
+    width: 100px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    border-radius: 8px;
+    margin-right: 40px;
+}
+.hotels-rating button:last-child{
+    border: 1px solid #222222;
+}
+
+
+.luxury-hotel-examples{
+    display: flex;
+    justify-content: space-between;
+}
+.luxury-hotel-examples p{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hotel-example1{
+    border: 1px solid #E8E8E8;
+    border-radius: 16px;
+}
+.hotel-examples-p1{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #222222;    
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+.hotel-examples-p2{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #555555;
+    margin-bottom: 27px;
+}
+.hotel-examples-p3{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #3771C8;
+}
+.hotel-examples-span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #555555;
+}
+.hotel-examples-inside{
+    display: flex;
+    margin-left: 20px;
+    width: 90%;
+}
+.hotel-examples-btn{
+    width: 77px;
+    height: 30px;
+    background: #3771C8;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF; 
+    border: none;   
+}
+.hotel-examples-btn:hover{
+    background: #f9d15c;
+    color: #000000; 
+}
+.hotel-example2{
+    border: 1px solid #E8E8E8;
+    border-radius: 16px;
+    margin-left: 23px;
+    margin-right: 23px;
+    background: transparent;
+}
+/* .hotel-example2:hover{
+    border: 5px solid #f9d15c;
+    border-radius: 20px;
+} */
+
+
+.main-finish-part{
+    background: #EAECEB;
+    border-radius: 16px;
+    display: flex;
+    margin-top: 143px;
+}
+.finish-part-text{
+    padding-top: 60px;
+    padding-left: 154px;
+}
+.finish-part-p1{
+    padding-bottom: 20px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: #222222;
+}
+.finish-part-p2{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #555555;
+    padding-bottom: 92px;
+}
+.finish-part-input{
+    width: 340px;
+    height: 56px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    border: none;
+}
+.finish-part-btn1{
+    width: 140px;
+    height: 56px;
+    background: #3771C8;
+    border-radius: 50px;
+    border: none;
+    margin-left: -145px;
+}
+
+
+            /* FOOTER */
+.hotelo-footer-part{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+}
+.footer-span{
+    color: #000000;
+}
+.footer-p1{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;   
+    color: #555555;    
+    width: 264px;
+    height: 72px;
+    margin-top: 24px;
+    margin-bottom: 34px;
+}
+.social-media > a{
+    margin-right: 32px;
+}
+.footer-main-title{
+    list-style: none;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;   
+    color: #222222;    
+    margin-bottom: 24px;
+}
+.hotelo-footer-part ul li{
+    list-style: none;
+    margin-bottom: 16px;
+}
+.hotelo-footer-part ul li a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222222;    
+    margin-bottom: 16px;
+}
+.hotelo-footer-part ul li a:hover{
+    color: #f9d15c;
+}
